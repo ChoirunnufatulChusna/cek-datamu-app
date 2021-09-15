@@ -18,7 +18,7 @@
     <!-- Nav Item - Dashboard -->
     <li class="nav-item">
         <a class="nav-link" href="index.html">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
+        <i class="fas fa-house-user"></i>
             <span class="text-black-50">HOME</span></a>
     </li>
 
