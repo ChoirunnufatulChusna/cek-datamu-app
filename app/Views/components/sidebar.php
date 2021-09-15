@@ -9,7 +9,7 @@
         <div class="sidebar-brand-icon">
             <img src="assets/img/kpu-logo.png" alt="logo kpu" width="50px"> 
         </div>
-        <div class="sidebar-brand-text mx-3 text-black-50">Sistem Informasi </div>
+        <div class="sidebar-brand-text mx-3 text-black-50">Sistem Informasi KPU </div>
     </a>
 
     <!-- Divider -->
