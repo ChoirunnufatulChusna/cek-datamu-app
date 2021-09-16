@@ -1,6 +1,7 @@
  <!-- Page Wrapper -->
  <div id="wrapper">
 
+<<<<<<< Updated upstream
      <!-- Sidebar -->
      <ul class="navbar-nav bg-warning sidebar sidebar-dark accordion" id="accordionSidebar">
 
@@ -11,10 +12,23 @@
              </div>
              <div class="sidebar-brand-text mx-3 text-black-50">Sistem Informasi</div>
          </a>
+=======
+<!-- Sidebar -->
+<ul class="navbar-nav bg-warning sidebar sidebar-gradient-dark accordion" id="accordionSidebar">
+
+    <!-- JUDUL SIDEBAR -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon">
+            <img src="assets/img/kpu-logo.png" alt="logo kpu" width="50px"> 
+        </div>
+        <div class="sidebar-brand-text mx-3 text-black-50">Sistem Informasi</div>
+    </a>
+>>>>>>> Stashed changes
 
          <!-- Divider -->
          <hr class="sidebar-divider my-0">
 
+<<<<<<< Updated upstream
          <!-- Nav Item - Dashboard -->
          <li class="nav-item">
              <a class="nav-link" href="index.html">
@@ -67,6 +81,60 @@
                  </div>
              </div>
          </li>
+=======
+    <!-- HOME -->
+    <li class="nav-item">
+        <a class="nav-link" href="index.html">
+        <i class="fas fa-house-user"></i>
+            <span class="text-black-50">HOME</span></a>
+    </li>
+
+
+    <!-- INFO -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+            aria-expanded="true" aria-controls="collapseTwo">
+            <i class="fas fa-fw fa-cog"></i>
+            <span class="text-black-50">INFO</span>
+        </a>
+        <div id="collapsePages" class="collapse show" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item text-black-50" href="...apa-1.php">Apa itu PDPB?</a>
+                <a class="collapse-item text-black-50" href="cards.html">Apa itu DPB?</a>
+                <a class="collapse-item text-black-50" href="" >Mengapa harus ada PDPB?</a>
+                <a class="collapse-item text-black-50" href="cards.html">Alur</a>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- CEK DATA -->
+    <li class="nav-item active">
+        <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true"
+            aria-controls="collapsePages">
+            <i class="fas fa-fw fa-folder"></i>
+            <span class="text-black-50">CEK DATA</span>
+        </a>
+        <div id="collapsePages" class="collapse show" aria-labelledby="headingPages"
+            data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header text-black-50"> Cek Data :</h6>
+                <a class="collapse-item" href="login.html">Masukkan NIK</a>
+                <h6 class="collapse-header text-black-50"> Lapor :</h6>
+                <a class="collapse-item" href="register.html">Pemilih Baru</a>
+                <a class="collapse-item" href="forgot-password.html">Ubah Data</a>
+                <a class="collapse-item" href="forgot-password.html">TMS</a>
+            </div>
+        </div>
+    </li>
+    <!-- KONTAK -->
+    <li class="nav-item">
+        <a class="nav-link" href="index.html">
+        <i class="fas fa-house-user"></i>
+            <span class="text-black-50">KONTAK</span></a>
+    </li>
+
+>>>>>>> Stashed changes
 
 
          <!-- Divider -->

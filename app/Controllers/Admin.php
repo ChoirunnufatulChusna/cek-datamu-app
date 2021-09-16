@@ -1,21 +1,14 @@
 <?php
-
 namespace App\Controllers;
 
-class Home extends BaseController
+class Admin extends BaseController
 {
     public function index()
     {
-
-        $data = [
-            'judul' => 'Data Admin'
-        ];
-            
-        
         echo view('components/header');
         echo view('components/sidebar');
         echo view('components/topbar');
-        echo view('home/index');
+        echo view('admin/index');
         echo view('components/footer');
     }
 }
